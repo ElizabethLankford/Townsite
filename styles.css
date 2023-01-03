@@ -1,0 +1,79 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #1d3557;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.hero {
+    background-image: url("https://www.southernliving.com/thmb/URIpSzdBYnLlOfc644HXUQcuB7g=/1998x1124/smart/filters:no_upscale()/McKinney_Oktoberfest-Aerial-of-downtown_Permission-from-XtremeHeightsProductions-2000-8c5b10a22b104ec981cd050bf5aade71.jpg");
+    background-size: cover;
+    padding: 50px 20px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2 {
+    background: #1D3557;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 30px;
+}
+.activity-section {
+    padding: 10px;
+}
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-act {
+   margin: 10px;
+   border-radius: 10px;
+   background-color: #f1faee;
+   padding: 20px;
+    width: 200px;
+}
+.activites, img {
+    border-radius: 50%;
+}
+.guide {
+    display: flex;
+    justify-content: center;
+    background-color: #1D3557;
+    padding: 40px 30px;
+}
+.guide-card {
+    display: flex;
+    background-color: #A8DADC;
+    border-bottom: 10px solid white;
+    width: 400px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+#profile-img {
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+}
+.guide-card-text {
+}
+footer {
+    padding: 10px;
+    background-color: #A8DADC;
+}
+a:hover {
+    color: white;
+}
